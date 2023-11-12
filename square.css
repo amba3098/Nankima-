@@ -1,7 +1,7 @@
-/* iCheck plugin Square skin, grey
+/* iCheck plugin Square skin, black
 ----------------------------------- */
-.icheckbox_square-grey,
-.iradio_square-grey {
+.icheckbox_square,
+.iradio_square {
     display: inline-block;
     *display: inline;
     vertical-align: middle;
@@ -9,42 +9,42 @@
     padding: 0;
     width: 22px;
     height: 22px;
-    background: url(grey.png) no-repeat;
+    background: url(square.png) no-repeat;
     border: none;
     cursor: pointer;
 }
 
-.icheckbox_square-grey {
+.icheckbox_square {
     background-position: 0 0;
 }
-    .icheckbox_square-grey.hover {
+    .icheckbox_square.hover {
         background-position: -24px 0;
     }
-    .icheckbox_square-grey.checked {
+    .icheckbox_square.checked {
         background-position: -48px 0;
     }
-    .icheckbox_square-grey.disabled {
+    .icheckbox_square.disabled {
         background-position: -72px 0;
         cursor: default;
     }
-    .icheckbox_square-grey.checked.disabled {
+    .icheckbox_square.checked.disabled {
         background-position: -96px 0;
     }
 
-.iradio_square-grey {
+.iradio_square {
     background-position: -120px 0;
 }
-    .iradio_square-grey.hover {
+    .iradio_square.hover {
         background-position: -144px 0;
     }
-    .iradio_square-grey.checked {
+    .iradio_square.checked {
         background-position: -168px 0;
     }
-    .iradio_square-grey.disabled {
+    .iradio_square.disabled {
         background-position: -192px 0;
         cursor: default;
     }
-    .iradio_square-grey.checked.disabled {
+    .iradio_square.checked.disabled {
         background-position: -216px 0;
     }
 
@@ -53,9 +53,9 @@
        only screen and (-moz-min-device-pixel-ratio: 1.5),
        only screen and (-o-min-device-pixel-ratio: 3/2),
        only screen and (min-device-pixel-ratio: 1.5) {
-    .icheckbox_square-grey,
-    .iradio_square-grey {
-        background-image: url(grey@2x.png);
+    .icheckbox_square,
+    .iradio_square {
+        background-image: url(square@2x.png);
         -webkit-background-size: 240px 24px;
         background-size: 240px 24px;
     }
