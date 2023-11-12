@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color:#aeeaeb;
+  }
+
+  .image {
+    width: 600px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  .carousel-caption{
+    background-color:black;
+    opacity: 70%;
+    color:white;
+  }
+
+   .contenedor1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #cecfeb;
+   }
+
+    .carousel-item img {
+      width: 50%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+
